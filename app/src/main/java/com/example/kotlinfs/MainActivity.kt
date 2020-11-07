@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var noteModels: ArrayList<NoteModel>
     private lateinit var rvMainNoteAdapter: RVMainNoteAdapter
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

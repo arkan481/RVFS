@@ -11,7 +11,8 @@ class RVMainNoteAdapter(
     private val noteModels: ArrayList<NoteModel>
 ) : RecyclerView.Adapter<RVMainNoteAdapter.ViewHolder>() {
 
-    // ini berfungsi untuk membangun view item
+    // ini berfungsi untuk membangun view item layout
+    // yang diubah cuma nama item yang udh dibuat
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         LayoutInflater.from(parent.context).inflate(R.layout.item_main_note, parent, false).let { view ->
             return ViewHolder(view)
